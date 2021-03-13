@@ -1,8 +1,14 @@
-.body {
+body {
     box-sizing: border-box;
+    background: rgb(93,45,125);
+background: -moz-linear-gradient(45deg, rgba(93,45,125,1) 0%, rgba(169,21,21,1) 50%, rgba(205,138,45,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(93,45,125,1) 0%, rgba(169,21,21,1) 50%, rgba(205,138,45,1) 100%);
+background: linear-gradient(45deg, rgba(93,45,125,1) 0%, rgba(169,21,21,1) 50%, rgba(205,138,45,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5d2d7d",endColorstr="#cd8a2d",GradientType=1);
 }
 
 div {
+    color: white;
     flex-direction: column;
     display: flex;
     justify-content: center;
