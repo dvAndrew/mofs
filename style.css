@@ -1,0 +1,14 @@
+.body {
+    box-sizing: border-box;
+}
+
+div {
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+}
